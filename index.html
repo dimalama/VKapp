@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Get user friends information</title>
+		<style>
+			.button-blue button, 
+			.button-blue.button-disabled button:active, 
+			.button-blue.button-disabled button.active, 
+			.button-blue.button-disabled button:hover, 
+			.button-blue.button-disabled button.hover {
+				padding: 6px 16px;
+				border: 0;
+				border-bottom: 1px solid #496b93;
+				text-shadow: 0 1px 0 #5578A0;
+				background-color: #658ab0;
+				background-position: 0px -12px;
+				color: #FFF;
+				cursor: pointer;
+			}
+			.button-blue {
+				border: 0;
+				display: inline-block;
+				position: relative;
+				line-height: normal;
+				zoom: 1;
+			}
+			.get-friends-btn {
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="button-blue get-friends-btn">
+			<button id="get-friends" class="">Get Friends List</button>
+		</div>
+		<div class="button-blue">
+			<button id="mutual-friends" class="">Get Mutual Friends</button>
+		</div>
+		<div class="button-blue">
+			<button id="logout" class="">Log Out From Application</button>
+		</div>
+		
+		<script src="//vk.com/js/api/openapi.js" type="text/javascript"></script>
+		<script src="../js/VKapp.js" type="text/javascript"></script>
+	</body>	
+</html>
